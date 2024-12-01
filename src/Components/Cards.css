@@ -1,0 +1,15 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .card-img-top {
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .card-body {
+    flex-grow: 1;
+    overflow: hidden;
+  }
